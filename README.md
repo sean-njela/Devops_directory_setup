@@ -1,6 +1,6 @@
 # DevOps Project Directory Setup Script
 
-[![ Script](https://img.shields.io/badge/script--green.svg)](https://www.gnu.org/software//)
+[![Script](https://img.shields.io/badge/script--green.svg)](https://www.gnu.org/software//)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A robust, production-ready script that automatically creates a comprehensive DevOps project directory structure with proper error handling, logging, and validation.
@@ -20,22 +20,20 @@ A robust, production-ready script that automatically creates a comprehensive Dev
 - **Built-in Safety Features**:
 
   - Automatic backup of existing directories
-  - Comprehensive error handling and logging
-  - Input validation for directory and file names
-  - Prerequisite tools checking
+  - Basic error handling and logging
+  - Tool prerequisite checking
 
-- **Intelligent Logging**:
+- **Simple Logging System**:
 
   - Color-coded console output
-  - Detailed timestamped logs
+  - Timestamped logs
   - Different log levels (INFO, SUCCESS, WARNING, ERROR)
-  - Log file generation for debugging
+  - Log file generation
 
 - **Security Considerations**:
-  - Secure file permissions
-  - Gitignore templates for sensitive files
+  - Basic file permissions
+  - Gitignore templates
   - Security policy templates
-  - Vault integration preparation
 
 ## 📋 Prerequisites
 
@@ -53,42 +51,26 @@ The script checks for the following tools:
 
 1. Clone this repository:
 
-   ```
+   ```bash
    git clone https://github.com/sean-njela/Devops_directory_setup.git
    cd Devops_directory_setup
    ```
 
 2. Make the script executable:
 
-   ```
+   ```bash
    chmod +x directory_setup.sh
    ```
 
 3. Run the setup script:
 
-   ```
+   ```bash
    ./directory_setup.sh
    ```
 
-## 🧩 Usage
-
-To use the script, simply run it from the root of your cloned repository:
-
-```
-./directory_setup.sh
-```
-
-The script will:
-
-1. Check for required tools
-2. Create the directory structure
-3. Set up initial configuration files
-4. Initialize a git repository
-5. Generate comprehensive documentation
-
 ## 📁 Directory Structure
 
-```
+```plaintext
 project/
 ├── ansible/
 │   ├── roles/
@@ -119,11 +101,10 @@ project/
 
 ## 🔍 Health Check
 
-The script includes a comprehensive health check tool that verifies:
+The script includes a basic health check tool that verifies:
 
 - Directory structure integrity
 - Presence of essential files
-- File permissions
 - Git repository status
 - Empty directory detection
 
@@ -141,16 +122,13 @@ The logging system provides:
 
 - Timestamp for each operation
 - Operation status (SUCCESS/ERROR/WARNING/INFO)
-- Detailed error messages
 - Color-coded console output
 
 ## 🔒 Security Features
 
-- Secure file permission settings
-- Comprehensive `.gitignore` file
-- Vault integration preparation
+- Basic `.gitignore` file
 - Security policy templates
-- Sensitive file handling
+- Simple file handling
 
 ## 🤝 Contributing
 
@@ -166,13 +144,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ✨ Acknowledgments
 
-- Inspired by DevOps best practices and industry standards
-- Built with security and scalability in mind
+- Inspired by DevOps best practices
+- Built with basic security in mind
 - Designed for both small and large-scale projects
 
-## ��� Support
+## 💡 Support
 
-For support, please open an issue in the GitHub repository or contact [seannjela@outlook.com](mailto:seannjela@outlook.com).
+For support, please open an issue in the GitHub repository.
 
 ---
 
